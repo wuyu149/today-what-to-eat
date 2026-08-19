@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>今天吃什么</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <header class="hero">
+      <p class="eyebrow">一人食 · 零基础 · 现有厨具可做</p>
+      <h1>今天吃什么</h1>
+      <p class="hero-copy">不排未来，只解决今天这一顿。</p>
+    </header>
+
+    <section id="generator" class="generator" aria-labelledby="generator-title">
+      <h2 id="generator-title" class="sr-only">随机生成今天的菜</h2>
+      <button id="generateButton" class="primary-button" type="button">
+        <span aria-hidden="true">✦</span>
+        随机生成今天的菜
+      </button>
+      <p class="generator-note">从 30 道离线菜谱中选 1 顿，优先避开最近 5 次。</p>
+    </section>
+
+    <section id="result" class="result-card" aria-live="polite" hidden>
+      <div class="result-topline">
+        <span class="today-label">今天就吃</span>
+        <div class="result-actions">
+          <button id="changeButton" class="secondary-button" type="button">换一道</button>
+        </div>
+      </div>
+
+      <h2 id="mealTitle" class="meal-title"></h2>
+      <p id="staple" class="staple"></p>
+
+      <div class="quick-facts" aria-label="菜谱概览">
+        <div><span>多久能吃上</span><strong id="totalTime"></strong></div>
+        <div><span>难度</span><strong id="difficulty"></strong></div>
+      </div>
+
+      <section class="content-section shopping-section" aria-labelledby="shopping-title">
+        <div class="section-heading">
+          <span class="section-number">01</span>
+          <h3 id="shopping-title">本次需要买</h3>
+        </div>
+        <ul id="shoppingList" class="chip-list"></ul>
+        <p id="seasoningNote" class="section-note"></p>
+      </section>
+
+      <section class="content-section" aria-labelledby="prep-title">
+        <div class="section-heading">
+          <span class="section-number">02</span>
+          <h3 id="prep-title">先备好，再开火</h3>
+        </div>
+        <ol id="prepList" class="instruction-list prep-list"></ol>
+      </section>
+
+      <section class="content-section" aria-labelledby="steps-title">
+        <div class="section-heading">
+          <span class="section-number">03</span>
+          <h3 id="steps-title">下锅顺序</h3>
+        </div>
+        <ol id="stepsList" class="instruction-list"></ol>
+      </section>
+
+      <div class="detail-grid">
+        <section class="mini-card" aria-labelledby="heat-title">
+          <h3 id="heat-title">火力</h3>
+          <ul id="heatList"></ul>
+        </section>
+        <section class="mini-card" aria-labelledby="timing-title">
+          <h3 id="timing-title">分段时间</h3>
+          <ul id="timingList"></ul>
+        </section>
+      </div>
+
+      <section class="check-card" aria-labelledby="doneness-title">
+        <p class="check-kicker">关火前检查</p>
+        <h3 id="doneness-title">怎样算熟</h3>
+        <p id="doneness"></p>
+      </section>
+
+      <section class="rescue-card" aria-labelledby="rescue-title">
+        <h3 id="rescue-title">翻车了怎么救</h3>
+        <p id="rescue"></p>
+      </section>
+
+      <p class="safety-note">处理生肉、海鲜或鸡蛋后，先洗手并清洗刀、砧板和台面，再接触熟食。</p>
+
+      <footer class="source-row">
+        <a id="sourceLink" href="#" target="_blank" rel="noopener noreferrer">查看菜谱来源 ↗</a>
+        <span id="sourceMeta"></span>
+      </footer>
+    </section>
+
+    <section id="utilityPanels" class="utility-panels" aria-label="辅助信息" hidden>
+      <details>
+        <summary>已有厨具与基础调料</summary>
+        <div class="details-body">
+          <p><strong>厨具：</strong>电饭煲、电磁炉、铁锅、锅盖、锅铲、洗锅工具、砧板、菜刀、菜板菜刀支架、调料盒、碗、筷子。</p>
+          <p><strong>已有调料：</strong>食用油、味精、盐、生抽。它们不会出现在“本次需要买”中。</p>
+        </div>
+      </details>
+      <details>
+        <summary>最近 5 次结果</summary>
+        <div class="details-body">
+          <ol id="historyList" class="history-list"></ol>
+          <p id="emptyHistory" class="muted">还没有记录。生成第一顿后会保存在这台设备上。</p>
+        </div>
+      </details>
+    </section>
+
+    <p id="errorMessage" class="error-message" role="alert" hidden></p>
+  </main>
+
+  <script src="recipes.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "appid": "touristappid",
+  "projectname": "today-meal",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "miniprogram/",
+  "setting": {
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "urlCheck": true
+  },
+  "condition": {}
+}

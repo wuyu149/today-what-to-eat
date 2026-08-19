@@ -1,0 +1,31 @@
+<view class="page-shell history-page">
+  <view class="page-heading">
+    <text class="eyebrow">最近 5 次</text>
+    <text class="page-title">最近吃过</text>
+    <text class="page-intro">点一道可以回到首页重新查看完整做法。</text>
+  </view>
+
+  <view wx:if="{{history.length}}" class="history-list">
+    <button
+      wx:for="{{history}}"
+      wx:key="id"
+      class="history-card"
+      data-id="{{item.id}}"
+      bindtap="viewAgain"
+    >
+      <view class="history-card__top">
+        <text class="history-card__name">{{item.name}}</text>
+        <text class="history-card__time">约 {{item.totalMinutes}} 分钟</text>
+      </view>
+      <text class="history-card__meta">{{item.staple}} · {{item.difficulty}}</text>
+      <text wx:if="{{item.tagsText}}" class="history-card__tags">{{item.tagsText}}</text>
+    </button>
+  </view>
+
+  <view wx:else class="empty-card">
+    <text class="empty-card__title">还没有记录</text>
+    <text class="empty-card__text">先回首页生成一道菜，完成后这里会保留最近 5 次结果。</text>
+  </view>
+
+  <button class="secondary-button" bindtap="goBack">回到今天吃什么</button>
+</view>

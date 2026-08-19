@@ -1,0 +1,101 @@
+.about-page {
+  padding-bottom: 56rpx;
+}
+
+.page-heading {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32rpx;
+}
+
+.eyebrow {
+  color: #d66c3a;
+  font-size: 24rpx;
+  font-weight: 700;
+  letter-spacing: 4rpx;
+}
+
+.page-title {
+  margin-top: 10rpx;
+  color: #173c32;
+  font-size: 48rpx;
+  font-weight: 800;
+}
+
+.page-intro {
+  margin-top: 12rpx;
+  color: #6f746f;
+  font-size: 28rpx;
+  line-height: 1.65;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22rpx;
+  padding: 30rpx;
+  border: 2rpx solid #dde6df;
+  border-radius: 26rpx;
+  background: #ffffff;
+  box-shadow: 0 10rpx 28rpx rgba(25, 62, 51, 0.06);
+}
+
+.info-card--technical {
+  background: #f1f5f1;
+}
+
+.info-card__title {
+  margin-bottom: 16rpx;
+  color: #173c32;
+  font-size: 32rpx;
+  font-weight: 800;
+}
+
+.info-row,
+.info-note {
+  color: #59655f;
+  font-size: 26rpx;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+.mono {
+  font-family: monospace;
+  word-break: break-all;
+}
+
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14rpx;
+}
+
+.info-chip {
+  padding: 10rpx 18rpx;
+  border-radius: 999rpx;
+  background: #e7f0ea;
+  color: #285c4b;
+  font-size: 25rpx;
+}
+
+.info-chip--warm {
+  background: #fff0e3;
+  color: #9a4a25;
+}
+
+.link-button {
+  margin: 24rpx 0 0;
+  border: 0;
+  background: #e7f0ea;
+  color: #285c4b;
+  font-size: 27rpx;
+  font-weight: 700;
+}
+
+.link-button::after {
+  border: 0;
+}
+
+.secondary-button {
+  margin-top: 30rpx;
+}

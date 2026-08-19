@@ -1,0 +1,23 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor settings
+.idea/
+.vscode/
+*.swp
+
+# Local environment and temporary files
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.temp
+
+# WeChat DevTools private and generated files
+wechat-mini/project.private.config.json
+wechat-mini/miniprogram_npm/
+wechat-mini/node_modules/
+*.wxapkg

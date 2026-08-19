@@ -1,0 +1,149 @@
+<view class="page-shell index-page">
+  <view class="top-nav">
+    <button class="nav-button" bindtap="openHistory">最近 {{historyCount}}/5</button>
+    <button class="nav-button" bindtap="openAbout">说明</button>
+  </view>
+
+  <view class="hero">
+    <text class="eyebrow">一人食 · 零基础 · 现有厨具可做</text>
+    <text class="hero-title">今天吃什么</text>
+    <text class="hero-copy">不排未来，只解决今天这一顿。</text>
+  </view>
+
+  <view class="filter-card">
+    <view class="filter-row">
+      <text class="filter-label">今天想吃</text>
+      <view class="segments">
+        <button
+          wx:for="{{dietOptions}}"
+          wx:key="value"
+          class="segment {{filters.diet === item.value ? 'active' : ''}}"
+          data-group="diet"
+          data-value="{{item.value}}"
+          bindtap="changeFilter"
+        >{{item.label}}</button>
+      </view>
+    </view>
+
+    <view class="filter-row">
+      <text class="filter-label">主食</text>
+      <view class="segments">
+        <button
+          wx:for="{{stapleOptions}}"
+          wx:key="value"
+          class="segment {{filters.staple === item.value ? 'active' : ''}}"
+          data-group="staple"
+          data-value="{{item.value}}"
+          bindtap="changeFilter"
+        >{{item.label}}</button>
+      </view>
+    </view>
+
+    <view class="filter-row last-row">
+      <text class="filter-label">时间</text>
+      <view class="segments">
+        <button
+          wx:for="{{timeOptions}}"
+          wx:key="value"
+          class="segment {{filters.time === item.value ? 'active' : ''}}"
+          data-group="time"
+          data-value="{{item.value}}"
+          bindtap="changeFilter"
+        >{{item.label}}</button>
+      </view>
+    </view>
+  </view>
+
+  <button class="generate-button" bindtap="generateMeal">
+    <text class="spark">✦</text>
+    {{current ? '换一道' : '随机生成今天的菜'}}
+  </button>
+  <text class="pool-note">从 {{recipesCount}} 道本地菜谱中选择，优先避开最近 5 次</text>
+
+  <view wx:if="{{current}}" id="result-card" class="result-card">
+    <view class="result-heading">
+      <text class="today-label">今天就吃</text>
+      <text class="difficulty">{{current.difficultyDots}}</text>
+    </view>
+    <text class="meal-title">{{current.name}}</text>
+    <text class="staple">搭配：{{current.staple}}</text>
+
+    <view class="quick-facts">
+      <view class="fact">
+        <text class="fact-label">多久能吃上</text>
+        <text class="fact-value">约 {{current.totalMinutes}} 分钟</text>
+      </view>
+      <view class="fact">
+        <text class="fact-label">需另买调料</text>
+        <text class="fact-value small">{{current.extraSeasoningText}}</text>
+      </view>
+    </view>
+
+    <view class="content-section">
+      <view class="section-heading">
+        <text class="section-number">01</text>
+        <text class="section-title-inline">本次需要买</text>
+      </view>
+      <view class="shopping-list">
+        <view wx:for="{{current.shopping}}" wx:key="item" class="shopping-chip">
+          <text>{{item.item}}</text>
+          <text class="amount">{{item.amount}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="content-section">
+      <view class="section-heading">
+        <text class="section-number">02</text>
+        <text class="section-title-inline">先备好，再开火</text>
+      </view>
+      <view wx:for="{{current.prep}}" wx:key="*this" class="instruction">
+        <text class="instruction-index soft">{{index + 1}}</text>
+        <text class="instruction-text">{{item}}</text>
+      </view>
+    </view>
+
+    <view class="content-section">
+      <view class="section-heading">
+        <text class="section-number">03</text>
+        <text class="section-title-inline">下锅顺序</text>
+      </view>
+      <view wx:for="{{current.steps}}" wx:key="*this" class="instruction">
+        <text class="instruction-index">{{index + 1}}</text>
+        <text class="instruction-text">{{item}}</text>
+      </view>
+    </view>
+
+    <view class="detail-grid">
+      <view class="detail-card">
+        <text class="detail-title">火力</text>
+        <text wx:for="{{current.heat}}" wx:key="*this" class="detail-line">• {{item}}</text>
+      </view>
+      <view class="detail-card">
+        <text class="detail-title">分段时间</text>
+        <text wx:for="{{current.timings}}" wx:key="*this" class="detail-line">• {{item}}</text>
+      </view>
+    </view>
+
+    <view class="doneness-card">
+      <text class="card-kicker">关火前检查</text>
+      <text class="card-title">怎样算熟</text>
+      <text class="card-copy">{{current.doneness}}</text>
+    </view>
+
+    <view class="rescue-card">
+      <text class="card-title dark">翻车了怎么救</text>
+      <text class="card-copy dark">{{current.rescue}}</text>
+    </view>
+
+    <view class="safety-note">处理生肉、海鲜或鸡蛋后，先洗手并清洗刀、砧板和台面，再接触熟食。</view>
+
+    <view class="source-row">
+      <view>
+        <text class="source-name">HowToCook · {{current.license}}</text>
+        <text class="source-meta">commit {{sourceSha}}</text>
+      </view>
+      <button class="copy-button" bindtap="copySource">复制来源链接</button>
+    </view>
+  </view>
+</view>

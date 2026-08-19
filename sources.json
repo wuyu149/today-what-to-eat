@@ -1,0 +1,359 @@
+{
+    "generatedFrom":  "recipes.json",
+    "sourceSha256":  "567b9d5de9c85c8df2e5b39d709a7a767ce138ae24996af2f96c689d8c2463f4",
+    "recipeSources":  [
+                          {
+                              "recipeId":  "bai-zhuo-cai-xin",
+                              "recipeName":  "白灼菜心",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/白灼菜心/白灼菜心.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/白灼菜心/白灼菜心.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "按单人正餐缩减菜量和用油，补入电磁炉功率、并行煮饭、熟成判断与补救。"
+                          },
+                          {
+                              "recipeId":  "spinach-scrambled-eggs",
+                              "recipeName":  "菠菜炒鸡蛋",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/菠菜炒鸡蛋/菠菜炒鸡蛋.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/菠菜炒鸡蛋/菠菜炒鸡蛋.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "保留上游焯菠菜和分次炒制逻辑，缩减盐和水，补入电磁炉功率及官方鸡蛋熟成状态。"
+                          },
+                          {
+                              "recipeId":  "creamy-scrambled-eggs",
+                              "recipeName":  "牛奶炒嫩蛋",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/炒滑蛋/炒滑蛋.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/炒滑蛋/炒滑蛋.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "将4蛋改为单人3蛋，明确普通鸡蛋需完全凝固，并补足功率与补救。"
+                          },
+                          {
+                              "recipeId":  "stir-fried-greens",
+                              "recipeName":  "蒜香炒青菜",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/炒青菜.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/炒青菜.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "将单人蔬菜量提高为一顿主菜份量，减少糖和水并给出可见熟成状态。"
+                          },
+                          {
+                              "recipeId":  "pan-fried-scallion-tofu",
+                              "recipeName":  "葱香煎豆腐",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/葱煎豆腐.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/葱煎豆腐.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "用铁锅替代平底锅，采用较厚豆腐和低功率降低粘锅风险，补充碎裂补救。"
+                          },
+                          {
+                              "recipeId":  "oyster-sauce-lettuce",
+                              "recipeName":  "蚝油生菜",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/蚝油生菜.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/蚝油生菜.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "统一上游前后不一致的生抽量，按单人份减少盐和油，增加分批焯制。"
+                          },
+                          {
+                              "recipeId":  "cucumber-ham-eggs",
+                              "recipeName":  "黄瓜火腿炒鸡蛋",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/鸡蛋火腿炒黄瓜.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/鸡蛋火腿炒黄瓜.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "保留上游单人份，降低额外加盐并将预熟火腿放在末段充分复热。"
+                          },
+                          {
+                              "recipeId":  "chive-eggs",
+                              "recipeName":  "韭菜炒鸡蛋",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/韭菜炒蛋/韭菜炒蛋.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/韭菜炒蛋/韭菜炒蛋.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "把上游流程改成单锅分段，并依据官方鸡蛋熟成要求明确无流动蛋液。"
+                          },
+                          {
+                              "recipeId":  "cold-tofu",
+                              "recipeName":  "热焯凉拌豆腐",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/凉拌豆腐.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/凉拌豆腐.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "保留上游焯水步骤，将单人豆腐增至主菜份量，并强调现做现吃和凉开水。"
+                          },
+                          {
+                              "recipeId":  "preserved-egg-tofu",
+                              "recipeName":  "皮蛋拌热豆腐",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/皮蛋豆腐.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/皮蛋豆腐.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "将上游2个皮蛋缩减为1个并补入豆腐热焯，避免直接冷食开封豆腐。"
+                          },
+                          {
+                              "recipeId":  "stir-fried-cauliflower",
+                              "recipeName":  "蒜香清炒花菜",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/清炒花菜.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/清炒花菜.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "沿用上游焯水后炒制流程，明确花梗熟成判断并减少用油。"
+                          },
+                          {
+                              "recipeId":  "water-oil-braised-greens",
+                              "recipeName":  "水油焖时蔬",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/水油焖蔬菜.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/水油焖蔬菜.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "保留上游核心比例并加入菜梗熟成判断；作为正餐将蔬菜量定为350g。"
+                          },
+                          {
+                              "recipeId":  "braised-green-beans",
+                              "recipeName":  "焖烧豆角",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/素炒豆角.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/素炒豆角.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "沿用上游10分钟加盖焖制，去掉辣椒并强化豆角必须彻底熟透的判断与补水补救。"
+                          },
+                          {
+                              "recipeId":  "garlic-water-spinach",
+                              "recipeName":  "蒜蓉空心菜",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/蒜蓉空心菜/蒜蓉空心菜.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/蒜蓉空心菜/蒜蓉空心菜.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "减少上游45ml用油，去掉双手同时用筷子和铲子的要求，加入加水焖的容错路线。"
+                          },
+                          {
+                              "recipeId":  "garlic-broccoli",
+                              "recipeName":  "蒜蓉西兰花",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/蒜蓉西兰花.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/蒜蓉西兰花.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "把上游约2人份西兰花调整为单人主菜份量，保留焯水并增加合炒入味。"
+                          },
+                          {
+                              "recipeId":  "tomato-eggs",
+                              "recipeName":  "西红柿炒鸡蛋",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/西红柿炒鸡蛋.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/西红柿炒鸡蛋.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "按上游单人比例取整为2个蛋，明确并行煮饭、火力和官方鸡蛋熟成状态。"
+                          },
+                          {
+                              "recipeId":  "zucchini-eggs",
+                              "recipeName":  "西葫芦炒鸡蛋",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/西葫芦炒鸡蛋/西葫芦炒鸡蛋.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/西葫芦炒鸡蛋/西葫芦炒鸡蛋.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "将上游2人份按比例调整并把蛋数向上取整为2个，保留小火焖熟逻辑。"
+                          },
+                          {
+                              "recipeId":  "onion-eggs",
+                              "recipeName":  "洋葱炒鸡蛋",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/洋葱炒鸡蛋/洋葱炒鸡蛋.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/洋葱炒鸡蛋/洋葱炒鸡蛋.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "把上游50ml油降低至10ml，增加分炒和加盖焖洋葱以提高新手容错。"
+                          },
+                          {
+                              "recipeId":  "sweet-sour-eggs",
+                              "recipeName":  "酸甜浇汁鸡蛋",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/vegetable_dish/油醋爆蛋.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/vegetable_dish/油醋爆蛋.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "按1人份减半并用菜刀代替上游打蒜器，降低用油，补充鸡蛋完整凝固要求。"
+                          },
+                          {
+                              "recipeId":  "cucumber-pork",
+                              "recipeName":  "黄瓜炒肉片",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/meat_dish/黄瓜炒肉.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/meat_dish/黄瓜炒肉.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "修正上游盐和油偏高，加入淀粉与加盖焖熟；食品安全温度来自FoodSafety.gov。"
+                          },
+                          {
+                              "recipeId":  "jiaobai-pork",
+                              "recipeName":  "茭白炒肉",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/meat_dish/茭白炒肉/茭白炒肉.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/meat_dish/茭白炒肉/茭白炒肉.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "沿用上游单人份与茭白焯水，降低淀粉和鸡精，增加分开处理生肉及加盖熟成。"
+                          },
+                          {
+                              "recipeId":  "pepper-pork",
+                              "recipeName":  "青椒炒肉片",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/meat_dish/辣椒炒肉.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/meat_dish/辣椒炒肉.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "按新手食量减少猪肉和辣椒，保留先干煸后合炒，增加加盖焖熟和官方安全温度。"
+                          },
+                          {
+                              "recipeId":  "garlic-shoot-pork",
+                              "recipeName":  "蒜苔炒肉末",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/meat_dish/蒜苔炒肉末.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/meat_dish/蒜苔炒肉末.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "把上游20g五花肉提高为100g肉末形成正餐，增加彻底炒散、加盖焖和71°C安全基准。"
+                          },
+                          {
+                              "recipeId":  "celery-tofu-pork",
+                              "recipeName":  "芹菜香干炒肉",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/meat_dish/香干芹菜炒肉/香干芹菜炒肉.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/meat_dish/香干芹菜炒肉/香干芹菜炒肉.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "将上游约2人份缩为单人并减少辣椒和老抽，增加肉片加盖熟成与交叉污染提醒。"
+                          },
+                          {
+                              "recipeId":  "tofu-strips-pork",
+                              "recipeName":  "青椒香干肉丝",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/meat_dish/香干肉丝.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/meat_dish/香干肉丝.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "保留上游冷油划散肉丝方法，减少青椒数量并以加盖焖替代勾芡收尾。"
+                          },
+                          {
+                              "recipeId":  "poached-shrimp",
+                              "recipeName":  "姜葱焖虾",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/aquatic/白灼虾/白灼虾.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/aquatic/白灼虾/白灼虾.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "用铁锅和锅盖复现上游无水焖虾，省略新手危险的剪须开背，熟成状态来自FoodSafety.gov。"
+                          },
+                          {
+                              "recipeId":  "beef-bowl",
+                              "recipeName":  "洋葱肥牛盖饭",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/staple/日式肥牛丼饭/日式肥牛丼饭.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/staple/日式肥牛丼饭/日式肥牛丼饭.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "将上游约2人份减为1人并去掉味淋、芝麻和温泉蛋，保留焯肉与洋葱煮制。"
+                          },
+                          {
+                              "recipeId":  "tomato-egg-noodles",
+                              "recipeName":  "西红柿鸡蛋面",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/staple/西红柿鸡蛋挂面/西红柿鸡蛋挂面.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/staple/西红柿鸡蛋挂面/西红柿鸡蛋挂面.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "简化上游臊子与反复点水流程，明确以包装时间和面芯状态共同判断熟成。"
+                          },
+                          {
+                              "recipeId":  "egg-fried-rice",
+                              "recipeName":  "鸡蛋火腿炒饭",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/staple/蛋炒饭.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/staple/蛋炒饭.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "将上游蛋白蛋黄分炒简化为全蛋，缩为1人份；剩饭两小时规则来自FDA。"
+                          },
+                          {
+                              "recipeId":  "scallion-oil-noodles",
+                              "recipeName":  "葱油拌面配煎蛋",
+                              "repository":  "https://github.com/Anduin2017/HowToCook",
+                              "commitSha":  "0477799945082b72d6ac5c86a9752fddccf086e4",
+                              "sourceFile":  "dishes/staple/葱油拌面.md",
+                              "sourceUrl":  "https://github.com/Anduin2017/HowToCook/blob/0477799945082b72d6ac5c86a9752fddccf086e4/dishes/staple/葱油拌面.md",
+                              "license":  "Unlicense",
+                              "accessedAt":  "2026-08-17",
+                              "adaptation":  "把上游3–4份葱油缩为1人现做，并加入2个全熟煎蛋使其成为完整正餐。"
+                          }
+                      ],
+    "foodSafetySources":  [
+                              {
+                                  "publisher":  "U.S. Centers for Disease Control and Prevention (CDC)",
+                                  "title":  "Preventing Food Poisoning",
+                                  "url":  "https://www.cdc.gov/food-safety/prevention/",
+                                  "accessedAt":  "2026-08-17",
+                                  "usedFor":  "洗手、清洁、食材分开处理、充分加热和及时冷藏"
+                              },
+                              {
+                                  "publisher":  "FoodSafety.gov (U.S. government)",
+                                  "title":  "Cook to a Safe Minimum Internal Temperature",
+                                  "url":  "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+                                  "accessedAt":  "2026-08-17",
+                                  "usedFor":  "猪牛肉、肉末、鸡蛋和虾的安全熟成温度或状态"
+                              },
+                              {
+                                  "publisher":  "U.S. Food and Drug Administration (FDA)",
+                                  "title":  "Ready-to-Eat Foods: The 2-Hour Rule",
+                                  "url":  "https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be",
+                                  "accessedAt":  "2026-08-17",
+                                  "usedFor":  "熟米饭和易腐熟食在两小时内冷藏"
+                              }
+                          ]
+}

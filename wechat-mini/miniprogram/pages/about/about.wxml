@@ -1,0 +1,43 @@
+<view class="page-shell about-page">
+  <view class="page-heading">
+    <text class="eyebrow">使用说明</text>
+    <text class="page-title">这份菜单怎么来的</text>
+    <text class="page-intro">这是断网可用的本地菜谱库，不会在随机时访问网络，也不会收集个人信息。</text>
+  </view>
+
+  <view class="info-card">
+    <text class="info-card__title">菜谱库</text>
+    <text class="info-row">共 {{recipeCount}} 道适合现有厨具的入门菜</text>
+    <text class="info-row">来源：Anduin2017/HowToCook</text>
+    <text class="info-row mono">commit：{{commitSha}}</text>
+    <text class="info-row">许可证：Unlicense</text>
+    <button class="link-button" bindtap="copyRepository">复制来源仓库链接</button>
+  </view>
+
+  <view class="info-card">
+    <text class="info-card__title">已有厨具</text>
+    <view class="chip-list">
+      <text wx:for="{{equipment}}" wx:key="*this" class="info-chip">{{item}}</text>
+    </view>
+  </view>
+
+  <view class="info-card">
+    <text class="info-card__title">已有基础调料</text>
+    <view class="chip-list">
+      <text wx:for="{{seasonings}}" wx:key="*this" class="info-chip info-chip--warm">{{item}}</text>
+    </view>
+    <text class="info-note">菜谱中其余食材与调料会列在“本次需要买”。</text>
+  </view>
+
+  <view class="info-card">
+    <text class="info-card__title">体验版使用范围</text>
+    <text class="info-note">开发完成后由小程序管理员上传体验版，再把体验二维码或体验成员权限给家人使用。当前工程不包含公开发布、云服务或用户账号功能。</text>
+  </view>
+
+  <view class="info-card info-card--technical">
+    <text class="info-card__title">数据校验</text>
+    <text class="info-note mono">recipes.json SHA256：{{sourceSha256}}</text>
+  </view>
+
+  <button class="secondary-button" bindtap="goBack">回到今天吃什么</button>
+</view>
